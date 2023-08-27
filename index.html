@@ -7,6 +7,12 @@
       label {
         cursor: pointer;
       }
+      textarea{
+        display: block;
+      }
+      #select{
+        display: block;
+      }
     </style>
   </head>
   <body>
@@ -17,10 +23,37 @@
         <input type="text" id="nome" name="nome" placeholder="Seu nome..." required />
       </p>
       <p>
-        <label for="nome">Sou um dev:</label>
-        <input type="checkbox" id="dev" name="dev" value="sim"/>
+        <label for="date">Data de nascimento:</label>
+        <input type="date" id="nome" name="date" required />
       </p>
-      
+      <p>
+        <label for="email">Seu email:</label>
+        <input type="email" id="email" name="email" placeholder="Ex.:email@gmail.com" required>
+      </p>
+      <p>
+        <label for="number">Seu numero:</label>
+        <input type="number" id="number" name="number" placeholder="Ex.:38923456789" required>
+      </p>
+      <p>
+        <label for="foto">Sua foto:</label>
+        <input type="file" id="foto" name="foto" accept=".png, image/*">
+      </p>
+      <p>
+        <label for="textarea">Fale um pouco sobre você:</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+      </p>
+      <p>
+        <label for="select">Selecione um documento:</label>
+        <select name="select" id="select">
+          <optgroup label="Selecione">
+          <option value="Qualquer 1" label="Label 1">Identidade</option>
+          <option value="Qualquer 2" label="Label 2">Carteira de Habilitação</option>
+          <option value="Qualquer 3" label="Label 3">Certidão de Nascimento</option>
+          <option value="Qualquer 4" label="Label 4">Certidão de Casamento</option>
+          <option value="Qualquer 5" label="Label 5">Averbação</option>
+        </optgroup>
+        </select>
+      </p>  
       <p>
         Genero:<br>
         <label for="Masculino">Masculino</label>
@@ -31,47 +64,23 @@
         <input type="radio" id="outros" name="genero" value="Outros"/>
       </p>
       <p>
-        <label for="date">Data de nascimento</label>
-        <input type="date" id="nome" name="date" required />
-      </p>
-      <p>
-        <label for="cadastro">Data do cadastro</label>
-        <input type="datetime-local" id="cadastrocad" name="cadastro" required />
-      </p>
-      <p>
         <label for="cor-preferida">Cor Preferida</label>
         <input type="color" id="cor-preferida" name="cor-preferida">
       </p>
       <p>
-        <label for="email">Seu email</label>
-        <input type="email" id="email" name="email" placeholder="Ex.:email@gmail.com" required>
-      </p>
-      <p>
-        <label for="number">Seu numero</label>
-        <input type="number" id="number" name="number" placeholder="Ex.:38923456789" required>
+        <label for="nome">Sou um dev:</label>
+        <input type="checkbox" id="dev" name="dev" value="sim"/>
       </p>
       <p>
         <label for="url">Seu portifolio</label>
         <input type="url" id="urk" name="email" placeholder="Ex.:URL..." required>
       </p>
       <p>
-        <label for="select">Selecione um documento</label>
-        <select name="select" id="select">
-          <optgroup label="Selecione">
-          <option value="Qualquer 1" label="Label 1">Identidade</option>
-          <option value="Qualquer 2" label="Label 2">Carteira de Habilitação</option>
-          <option value="Qualquer 3" label="Label 3">Certidão de Nascimento</option>
-          <option value="Qualquer 4" label="Label 4">Certidão de Casamento</option>
-          <option value="Qualquer 5" label="Label 5">Averbação</option>
-        </optgroup>
-        </select>
+        <label for="cadastro">Data do cadastro</label>
+        <input type="datetime-local" id="cadastrocad" name="cadastro" required />
       </p>
       <p>
-        <label for="foto">Sua foto:</label>
-        <input type="file" id="foto" name="foto" accept=".png, image/*">
-      </p>
-      <p>
-        <label for="password">Digite sua senha:</label>
+        <label for="password">Crie sua senha:</label>
         <input type="password" id="password" name="password" placeholder="Digite sua senha">
       </p>
       <p>
