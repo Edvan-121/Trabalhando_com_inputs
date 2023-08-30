@@ -1,0 +1,9 @@
+label {
+    cursor: pointer;
+  }
+  textarea{
+    display: block;
+  }
+  #select{
+    display: block;
+  }
