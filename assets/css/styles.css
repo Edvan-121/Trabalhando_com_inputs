@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 label {
     cursor: pointer;
   }
@@ -7,3 +11,4 @@ label {
   #select{
     display: block;
   }
+  
