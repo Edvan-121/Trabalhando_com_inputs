@@ -3,12 +3,11 @@
   padding: 0;
 }
 label {
-    cursor: pointer;
-  }
-  textarea{
-    display: block;
-  }
-  #select{
-    display: block;
-  }
-  
+  cursor: pointer;
+}
+textarea{
+  display: block;
+}
+#select{
+  display: block;
+}
