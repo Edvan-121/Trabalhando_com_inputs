@@ -11,3 +11,22 @@ textarea{
 #select{
   display: block;
 }
+.formulario{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 5px solid darkgray;
+  text-align: center;
+  padding: 10px;
+  font-size: 2cm;
+  background-color: rgba(169, 169, 169, 0.541);
+  cursor: pointer;
+  touch-action: initial;
+  font-variant: initial;
+}
+.nome{
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 5ch;
+}
+#nome{
+  size: 5ch;
+}
