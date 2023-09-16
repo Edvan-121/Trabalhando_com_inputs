@@ -22,6 +22,7 @@ textarea{
   cursor: pointer;
   touch-action: initial;
   font-variant: initial;
+  transition: all 1s ease-in-out;
 }
 .formulario:hover{
   background: red;
