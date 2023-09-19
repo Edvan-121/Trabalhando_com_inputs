@@ -6,9 +6,6 @@
 label {
   cursor: pointer;
 }
-textarea{
-  display: block;
-}
 #select{
   display: block;
 }
@@ -25,13 +22,139 @@ textarea{
   transition: all 1s ease-in-out;
 }
 .formulario:hover{
-  background: red;
+  background: rgba(2, 2, 2, 0.678);
   font-size: 32px;
+  color: white;
 }
 .nome{
   text-align: center;
   font-size: 22px;
+  transition: all 300ms ease-in-out;
 }
-#nome{
-  size: 5ch;
+.nome:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.date{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.date:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.email{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.email:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.number{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.number:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.foto{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.foto:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.textarea{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.textarea:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+textarea{
+  display: flex;
+  margin-inline: 38%;
+}
+.select-document{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.select-document:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+select{
+  display: flex;
+  margin-inline: 45%;
+}
+.gender{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.gender:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.cor-preferida{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.cor-preferida:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.question-dev{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.question-dev:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.url-portifolio{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.url-portifolio:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.date-cadastro{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.date-cadastro:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;
+}
+.password{
+  text-align: center;
+  font-size: 22px;
+  transition: all 300ms ease-in-out;
+}
+.password:hover{
+  background-color: rgba(169, 169, 169, 0.541);
+  padding: 10px;  
+}
+.last-button{
+  text-align: center;
+  padding: 20px;
+}
+.last-button button{
+  size: 20px;
 }
